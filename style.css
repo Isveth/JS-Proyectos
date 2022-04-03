@@ -1,0 +1,61 @@
+/* Seleccion de elementos, escribir el nombre d ela etiqueta */
+
+a {
+  color: rgb(117, 6, 6);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Selector de CLASS, poner un PUNTO antes del nombre*/
+
+.Lista {
+  color: darkgreen;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Seleccionar varios elementos a la vez cuando se quiere que tengan el mismo atributo */
+
+h1,
+h2,
+h3 {
+  color: mediumslateblue;
+}
+
+/* Cambiar tamaño de imagenes y poner bordes*/
+img {
+  width: 200px;
+  border-width: 5px;
+  border-color: darkgoldenrod;
+  border-style: solid; /* Al colocar varios estilos de borde se usan varias palabras en border style */
+  border-radius: 50%; /* Podemos hacer que la imagen sea redonda, se pueden usar numeros y % */
+}
+
+/* Se cambia el color de fondo de una seccion haciendo uso del DIV */
+
+/* ID SE USA #*/
+
+#Hamb {
+  color: rgb(92, 5, 5);
+}
+
+/* Padding: Distancia interna, con respecto al borde del elemento */
+/* Margin: Distancia externa, entre elementos */
+
+img {
+  background-color: black;
+  border-width: 2px;
+  border-color: blueviolet;
+  padding: 15px;
+  /* Padding: Tambien se puede especificar en el sentido de las agujas del reloj (4 valores)*/
+
+  /* Marging: Diastancia entre elementos, espacio vacio. Tambien se puede especificar con agujas de reloj */
+}
+
+/* SELECCION DE ATRIBUTOS elemento[atributo] o elemnto[atributo=valor] */
+
+/* FONTS: px (absoluta) em y vw% de la ventana y vh relativo al tamaño de la letra (relativas), cambian en funcion del tamaño de pantalla */
+
+/* Se priorizan especificos, tipo, clase, ID, style, si agregamos !important PRIORIZA ESTILO */
+
+/* Variables se definen asi: --variable: valor. Para usarlo escogemos la propiedad a variar: var(--variable, respaldo)*/
